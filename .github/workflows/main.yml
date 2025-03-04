@@ -33,7 +33,7 @@ jobs:
     - name: Check code style with black and isort
       run: |
         black ./
-        isort --check-only ./
+        isort --check-only --profile black ./
     - name: Run tests with pytest
       run: |
           pytest ./
