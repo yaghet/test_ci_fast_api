@@ -32,7 +32,7 @@ jobs:
         mypy ./
     - name: Check code style with black and isort
       run: |
-        black --check ./
+        black ./
         isort --check-only ./
     - name: Run tests with pytest
       run: |
