@@ -1,0 +1,29 @@
+# Виртуальные среды
+venv/
+env/
+virtualenv/
+
+# Артефакты компиляции Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Файлы IDE
+.idea/
+.vscode/
+.eclipse/
+
+# Файлы конфигурации и логи
+.env
+*.log
+access.log
+
+# Артефакты тестирования и сборки
+build/
+dist/
+coverage/
+
+# Другие временные файлы
+.tmp/
+tmp/
+*.tmp
