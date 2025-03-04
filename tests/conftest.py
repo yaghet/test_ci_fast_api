@@ -11,7 +11,12 @@ async def create_db():
         await conn.run_sync(Base.metadata.create_all)
 
     async with async_session_maker() as session:
-        recipe = Recipe(title='Test Recipe', cooking_time=2.4, ingredients='Any', description='Just recipe')
+        recipe = Recipe(
+            title="Test Recipe",
+            cooking_time=2.4,
+            ingredients="Any",
+            description="Just recipe",
+        )
         session.add(recipe)
         await session.commit()
 
