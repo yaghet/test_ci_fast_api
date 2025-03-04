@@ -34,3 +34,6 @@ jobs:
       run: |
         black --check ./
         isort --check-only ./
+    - name: Run tests with pytest
+      run: |
+          pytest ./
