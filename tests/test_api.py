@@ -1,6 +1,6 @@
 import pytest
-from sqlalchemy import select
 from models import Recipe
+from sqlalchemy import select
 
 
 @pytest.mark.asyncio

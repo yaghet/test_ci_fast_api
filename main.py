@@ -1,5 +1,5 @@
 from contextlib import asynccontextmanager
-from typing import List, Annotated
+from typing import Annotated, List
 
 from fastapi import Depends, FastAPI, HTTPException, status
 from sqlalchemy import select
